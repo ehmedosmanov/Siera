@@ -1,0 +1,66 @@
+.background-img {
+  background: url(https://preview.colorlib.com/theme/sierra/img/home-slider/slider-bg-1.png.webp)
+    no-repeat scroll center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+#slider {
+  display: grid;
+  place-items: center;
+  .slider-content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .slider-info {
+      flex: 0 0 auto;
+      width: 50%;
+
+      h1 {
+        font-size: 4.5rem;
+      }
+      p {
+        font-size: 24px;
+        padding-bottom: 75px;
+      }
+
+      .custom-btn {
+        background-image: $gradient;
+        padding: 15px 35px;
+        color: #fff;
+        border-radius: 55px;
+        border: 6px solid rgba(204, 241, 255, 0.5);
+      }
+    }
+    .slider-img {
+      flex: 0 0 auto;
+      width: 50%;
+    }
+  }
+}
+
+#main {
+  #features {
+    height: 100vh;
+    .section-title {
+      text-align: center;
+      p {
+        font-size: 14px;
+        color: #7c8d93;
+        font-weight: bold;
+        padding: 12px 0;
+      }
+      h3 {
+        font-size: 48px;
+      }
+    }
+
+    .features-cards {
+        display: flex;
+        justify-content: center;
+        
+    }
+  }
+}
